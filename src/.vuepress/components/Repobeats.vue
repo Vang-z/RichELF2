@@ -13,7 +13,7 @@ const InsertRepobeats = () => {
   }
   textElm = document.getElementById("repobeats");
   if (!textElm) return;
-  textElm.innerHTML = `<img style="width: 100%; margin-top: 0.5rem;" src="https://repobeats.axiom.co/api/embed/9979904d97bdcdcf1e2e32d7f1394dad88c612af.svg" alt=""/>`;
+  textElm.innerHTML = `<img style="width: 100%; margin-top: 0.6rem;" src="https://repobeats.axiom.co/api/embed/350170b740014311951346a2bcb706a37a09a5fc.svg" alt=""/>`;
 };
 
 onMounted(() => {

@@ -58,7 +58,7 @@ export default hopeTheme({
   darkmode: "enable",
   themeColor: true,
   print: false,
-  hotReload: false,
+  hotReload: true,
   plugins: {
     blog: true,
     comment: {
