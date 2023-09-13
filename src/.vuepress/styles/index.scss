@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Flexo";
+  src: url("/assets/fonts/Flexo-Regular.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "JetBrainsMono";
+  src: url("/assets/fonts/JetBrainsMono-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LiXuKe";
+  src: url("/assets/fonts/李旭科书法.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+table {
+  border-collapse: separate;
+}
+
+#app {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.vp-site-name {
+  display: none;
+}
+
+.vp-blog-hero-image {
+  width: 20rem;
+}
+
+.vp-blogger-name {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.vp-page .vp-blog-info-wrapper {
+  margin-top: 0.5rem;
+}
+
+.vp-footer {
+  font-size: 12px;
+}
