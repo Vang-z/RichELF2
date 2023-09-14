@@ -66,7 +66,7 @@ export default hopeTheme({
       displayFooter: true,
       blog: {
         avatar: "https://contrib.rocks/image?repo=Vang-z/RichELF2&columns=8&max=128",
-        description: "Thanks everyone participated in building the community🎉",
+        description: "Thanks everyone who participated in building the community🎉",
       },
       metaLocales: {
         editLink: "Edit this page on GitHub",

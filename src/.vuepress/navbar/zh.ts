@@ -16,7 +16,12 @@ export const zhNavbar = navbar([
     ],
   },
   {
-    text: "友链",
+    text: "发布文章",
+    icon: "signature",
+    link: "https://github.com/Vang-z/RichELF2/upload/main/src"
+  },
+  {
+    text: "友情链接",
     icon: "mars-double",
     children: [
       {

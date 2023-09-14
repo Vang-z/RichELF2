@@ -16,6 +16,11 @@ export const enNavbar = navbar([
     ],
   },
   {
+    text: "Publish",
+    icon: "signature",
+    link: "https://github.com/Vang-z/RichELF2/upload/main/src"
+  },
+  {
     text: "Partner Links",
     icon: "mars-double",
     children: [
