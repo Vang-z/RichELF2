@@ -1,5 +1,5 @@
 ---
-title: 2023年9月
+title: List
 icon: book-bookmark
 index: false
 article: false
@@ -7,4 +7,4 @@ pageInfo: []
 ---
 
 ## 目录
-[『使用MATLAB/Python实现Otsu算法』](1.md)
+[『2023-09』](2023-09/README.md)

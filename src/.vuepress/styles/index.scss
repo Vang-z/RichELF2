@@ -68,6 +68,7 @@ table {
   header {
     font-size: 1.4rem !important;
     color: #f26d6d;
+    margin-bottom: 0.5rem;
   }
 
   .vp-article-excerpt {
@@ -94,10 +95,6 @@ table {
 
 .footnote-item::marker {
   color: #f26d6d;
-}
-
-.vp-blog-count .count {
-  font-weight: normal;
 }
 
 html[data-theme=dark] .vp-blog-type-button .icon-wrapper.active {
@@ -128,4 +125,18 @@ html[data-theme=dark] .vp-blog-type-button .icon-wrapper.active {
 
 .vp-blog-infos {
   display: none;
+}
+
+.vp-blog-count {
+  font-size: 0.7rem;
+
+  .count {
+    font-weight: normal;
+    font-size: 1.1rem;
+  }
+}
+
+.vp-blogger-avatar {
+  width: 90%;
+  height: auto;
 }

@@ -4,7 +4,7 @@ import {useRouter} from "vue-router";
 // import axios from "axios;
 
 
-const InsertText = (data) => {
+const InsertText = (data, timeout) => {
   const Win: any = window;
   clearInterval(Win.Timer);
   let textElm;
@@ -67,13 +67,12 @@ const InsertText = (data) => {
       pauseNum = pauseMax;
     }
     hitokotoElm.innerHTML = insertTxt;
-  }, 200);
+  }, timeout);
 };
 
 const GetWord = (path?) => {
   let toPath = window.location.pathname;
   if (path) toPath = path;
-  // if (toPath == '/' || toPath == '/en/') {
   if (toPath == '/') {
     // axios({
     //   method: 'get',
@@ -85,7 +84,7 @@ const GetWord = (path?) => {
     InsertText({
       "id": -1,
       "uuid": "",
-      "hitokoto": "给机器以生命，给岁月以文明。",
+      "hitokoto": "给机器以生命, 给岁月以文明。",
       "type": "",
       "from": "Vang-z",
       "from_who": "",
@@ -95,7 +94,22 @@ const GetWord = (path?) => {
       "commit_from": "",
       "created_at": "",
       "length": 0
-    });
+    }, 200);
+  } else if (toPath == '/en/') {
+    InsertText({
+      "id": -1,
+      "uuid": "",
+      "hitokoto": "Endow Machines with Life, Imbue Time with Civilization.",
+      "type": "",
+      "from": "Vang-z",
+      "from_who": "",
+      "creator": "",
+      "creator_uid": -1,
+      "reviewer": 1,
+      "commit_from": "",
+      "created_at": "",
+      "length": 0
+    }, 100);
   }
 };
 
