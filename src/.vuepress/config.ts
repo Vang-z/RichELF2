@@ -22,11 +22,11 @@ export default defineUserConfig({
       customFields: [
         {
           getter: (page) => page.frontmatter.category as string,
-          formatter: "分类：$content",
+          formatter: "分类: $content",
         },
         {
           getter: (page) => page.frontmatter.tag as string,
-          formatter: "标签：$content",
+          formatter: "标签: $content",
         },
       ],
     }),

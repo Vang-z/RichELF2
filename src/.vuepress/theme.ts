@@ -60,7 +60,9 @@ export default hopeTheme({
   print: false,
   hotReload: true,
   plugins: {
-    blog: true,
+    blog: {
+      excerptLength: 0,
+    },
     comment: {
       // @ts-ignore
       provider: "Waline",

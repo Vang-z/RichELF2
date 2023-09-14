@@ -15,4 +15,32 @@ export const zhNavbar = navbar([
       },
     ],
   },
+  {
+    text: "友链",
+    icon: "mars-double",
+    children: [
+      {
+        text: "一些大佬",
+        children: [
+          {
+            text: "zxysilent",
+            link: "https://blog.zxysilent.com"
+          },
+          {
+            text: "mahomaster",
+            link: "http://www.mahomaster.com/"
+          },
+        ]
+      },
+      {
+        text: "另一些大佬",
+        children: [
+          {
+            text: "...",
+            link: "#"
+          },
+        ]
+      },
+    ],
+  },
 ]);

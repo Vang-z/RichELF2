@@ -95,3 +95,37 @@ table {
 .footnote-item::marker {
   color: #f26d6d;
 }
+
+.vp-blog-count .count {
+  font-weight: normal;
+}
+
+html[data-theme=dark] .vp-blog-type-button .icon-wrapper.active {
+  background: #6a6a6a;
+}
+
+.vp-article-type-wrapper {
+  font-size: 1.1rem;
+}
+
+.vp-category {
+  margin: 0.2rem;
+  padding: 0.2rem 0.4rem;
+  font-size: 0.7rem;
+}
+
+.tag-list-wrapper .tag {
+  margin: 0.2rem 0.4rem;
+  padding: 0.2rem 0.4rem;
+  font-size: 0.7rem;
+  border-radius: 0.25rem;
+}
+
+.timeline-year, .timeline-wrapper .timeline-year-title {
+  font-weight: normal;
+  font-size: 1.35rem;
+}
+
+.vp-blog-infos {
+  display: none;
+}
