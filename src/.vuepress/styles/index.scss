@@ -51,3 +51,47 @@ table {
 .vp-footer {
   font-size: 12px;
 }
+
+.vp-sidebar-heading, .vp-sidebar-link {
+  font-size: 0.9rem !important;
+}
+
+.page-info {
+  font-size: 0.8rem !important;
+
+  span {
+    font-size: 0.8rem !important;
+  }
+}
+
+.vp-article-item {
+  header {
+    font-size: 1.4rem !important;
+    color: #f26d6d;
+  }
+
+  .vp-article-excerpt {
+    font-size: 0.9rem !important;
+  }
+
+  .page-info {
+    font-size: 0.7rem !important;
+
+    span {
+      font-size: 0.7rem !important;
+    }
+  }
+}
+
+.theme-hope-content {
+  font-size: 1rem;
+}
+
+.footnote-item {
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
+
+.footnote-item::marker {
+  color: #f26d6d;
+}
