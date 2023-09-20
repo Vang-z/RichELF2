@@ -12,6 +12,8 @@
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-beta.67",
+    "aplayer": "^1.10.1",
+    "axios": "^1.5.0",
     "vue": "^3.3.4",
     "vuepress": "2.0.0-beta.67",
     "vuepress-plugin-redirect": "^2.0.0-beta.237",
