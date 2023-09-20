@@ -18,7 +18,7 @@ export default hopeTheme({
       footer: "<div style='display: flex; justify-content: center; align-items: center; font-size: 12px'>" +
         "POWERED BY&nbsp;" +
         "<a href='https://theme-hope.vuejs.press/' target='_blank' style='display: flex; width: 18px; height: 18px;'>" +
-        "<img style='width: 100%; height: 100%; top: 1px;' src='https://theme-hope.vuejs.press/logo.svg' alt=''>" +
+        "<img style='width: 100%; height: 100%; top: 1px;' src='/assets/images/theme-hope.svg' alt=''>" +
         "</a>" +
         "&nbsp;" +
         "<a href='https://vercel.com/' target='_blank' style='display: flex; width: 18px; height: 18px;'>" +
@@ -26,7 +26,7 @@ export default hopeTheme({
         "</a>" +
         "&nbsp;&&nbsp;" +
         "<a href='https://waline.js.org/' target='_blank' style='display: flex; width: 18px; height: 18px;'>" +
-        "<img style='width: 100%; height: 100%' src='https://waline.js.org/logo.png' alt=''>" +
+        "<img style='width: 100%; height: 100%' src='/assets/images/waline.png' alt=''>" +
         "</a>" +
         "</div>",
       copyright: "<div style='display: flex; justify-content: center; align-items: center; font-size: 12px'>" +

@@ -6,7 +6,7 @@ import {useRouter} from "vue-router";
 
 const InsertText = (data, timeout) => {
   const Win: any = window;
-  clearInterval(Win.Timer);
+  clearInterval(Win.HeroHitokotoTimer);
   let textElm;
   const classElm = document.getElementsByClassName("vp-blog-hero-title");
   if (classElm.length > 0) {
@@ -36,7 +36,7 @@ const InsertText = (data, timeout) => {
   let pauseMax = 40;
   let line = false;
   let insertTxt = '';
-  Win.Timer = setInterval(() => {
+  Win.HeroHitokotoTimer = setInterval(() => {
     const el = txt[index];
 
     if (insertTxt.length < 4) authorElm.style.opacity = '0';
@@ -45,7 +45,7 @@ const InsertText = (data, timeout) => {
     if (pauseNum != 0) {
       pauseNum--;
       if (insertTxt.length == 0 && pauseNum == 0) {
-        clearInterval(Win.Timer);
+        clearInterval(Win.HeroHitokotoTimer);
         GetWord();
       }
       return;
