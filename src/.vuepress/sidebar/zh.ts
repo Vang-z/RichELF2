@@ -15,8 +15,8 @@ export const zhSidebar = sidebar({
           collapsible: true,
           prefix: "2023-09/",
           children: [
-            "2.md",
-            "1.md",
+            "0f87cd80-8c23-c2dd-40f3-e1d2df83c2f7.md",
+            "508e34eb-19f7-171d-5681-1b78e39b8274.md",
           ]
         },
       ]

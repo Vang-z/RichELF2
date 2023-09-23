@@ -15,7 +15,7 @@ export const enSidebar = sidebar({
           collapsible: true,
           prefix: "2023-09/",
           children: [
-            "1.md",
+            "508e34eb-19f7-171d-5681-1b78e39b8274.md",
           ]
         },
       ]

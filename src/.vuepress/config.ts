@@ -1,6 +1,7 @@
 import {defineUserConfig} from "vuepress";
 import {searchProPlugin} from "vuepress-plugin-search-pro";
 import {redirectPlugin} from "vuepress-plugin-redirect";
+import {removeHtmlExtensionPlugin} from "vuepress-plugin-remove-html-extension"
 import theme from "./theme";
 
 export default defineUserConfig({
@@ -33,5 +34,6 @@ export default defineUserConfig({
     redirectPlugin({
       config: {},
     }),
+    removeHtmlExtensionPlugin(),
   ],
 });
