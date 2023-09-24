@@ -46,7 +46,7 @@ export const enNavbar = navbar([
           },
           {
             text: "gisyang",
-            link: "gisyang.xyz"
+            link: "http://gisyang.xyz/"
           },
         ]
       },
