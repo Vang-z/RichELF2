@@ -37,6 +37,15 @@ export const enNavbar = navbar([
           },
         ]
       },
+      {
+        text: "Other Big Shots",
+        children: [
+          {
+            text: "TNT Lib",
+            link: "http://38.6.184.151:3310/"
+          },
+        ]
+      },
     ],
   },
 ]);

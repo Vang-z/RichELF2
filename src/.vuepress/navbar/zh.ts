@@ -41,8 +41,8 @@ export const zhNavbar = navbar([
         text: "另一些大佬",
         children: [
           {
-            text: "...",
-            link: "#"
+            text: "TNT文库",
+            link: "http://38.6.184.151:3310/"
           },
         ]
       },
