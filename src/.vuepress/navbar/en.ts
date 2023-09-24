@@ -44,6 +44,10 @@ export const enNavbar = navbar([
             text: "TNT Lib",
             link: "http://38.6.184.151:3310/"
           },
+          {
+            text: "gisyang",
+            link: "gisyang.xyz"
+          },
         ]
       },
     ],

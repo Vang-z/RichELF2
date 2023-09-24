@@ -44,6 +44,10 @@ export const zhNavbar = navbar([
             text: "TNT文库",
             link: "http://38.6.184.151:3310/"
           },
+          {
+            text: "gisyang",
+            link: "gisyang.xyz"
+          },
         ]
       },
     ],
