@@ -18,7 +18,7 @@ export const enNavbar = navbar([
   {
     text: "Publish",
     icon: "signature",
-    link: "https://github.com/Vang-z/RichELF2/upload/main/src"
+    link: "https://github.com/Vang-z/RichELF2/pulls"
   },
   {
     text: "Partner Links",
@@ -42,7 +42,7 @@ export const enNavbar = navbar([
         children: [
           {
             text: "TNT Lib",
-            link: "http://38.6.184.151:3310/"
+            link: "http://38.6.177.226:3310/"
           },
           {
             text: "gisyang",

@@ -18,7 +18,7 @@ export const zhNavbar = navbar([
   {
     text: "发布文章",
     icon: "signature",
-    link: "https://github.com/Vang-z/RichELF2/upload/main/src"
+    link: "https://github.com/Vang-z/RichELF2/pulls"
   },
   {
     text: "友情链接",
@@ -42,7 +42,7 @@ export const zhNavbar = navbar([
         children: [
           {
             text: "TNT文库",
-            link: "http://38.6.184.151:3310/"
+            link: "http://38.6.177.226:3310/"
           },
           {
             text: "gisyang",
