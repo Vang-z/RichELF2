@@ -1,5 +1,6 @@
 import {defineUserConfig} from "vuepress";
 import {searchProPlugin} from "vuepress-plugin-search-pro";
+import {redirectPlugin} from "vuepress-plugin-redirect";
 // import {removeHtmlExtensionPlugin} from "vuepress-plugin-remove-html-extension"
 import theme from "./theme";
 
@@ -29,6 +30,9 @@ export default defineUserConfig({
           formatter: "标签: $content",
         },
       ],
+    }),
+    redirectPlugin({
+      config: {},
     }),
     // 目前会导致阅读量记录失效
     // removeHtmlExtensionPlugin(),
