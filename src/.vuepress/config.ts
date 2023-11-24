@@ -1,7 +1,7 @@
 import {defineUserConfig} from "vuepress";
 import {searchProPlugin} from "vuepress-plugin-search-pro";
 import {redirectPlugin} from "vuepress-plugin-redirect";
-// import {removeHtmlExtensionPlugin} from "vuepress-plugin-remove-html-extension"
+import {removeHtmlExtensionPlugin} from "vuepress-plugin-remove-html-extension"
 import theme from "./theme";
 
 export default defineUserConfig({
@@ -35,6 +35,6 @@ export default defineUserConfig({
       config: {},
     }),
     // 目前会导致阅读量记录失效
-    // removeHtmlExtensionPlugin(),
+    removeHtmlExtensionPlugin(),
   ],
 });
