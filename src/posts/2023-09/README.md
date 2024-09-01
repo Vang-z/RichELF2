@@ -1,5 +1,5 @@
 ---
-title: 2023年9月
+title: 2023-09
 icon: book-bookmark
 index: false
 article: false

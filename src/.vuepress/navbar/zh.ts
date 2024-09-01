@@ -3,8 +3,8 @@ import {navbar} from "vuepress-theme-hope";
 export const zhNavbar = navbar([
   "/",
   {
-    text: "文章",
-    icon: "book",
+    text: "随笔文章",
+    icon: "signature",
     children: [
       {
         text: "文章列表",
@@ -16,9 +16,18 @@ export const zhNavbar = navbar([
     ],
   },
   {
-    text: "发布文章",
-    icon: "signature",
-    link: "https://github.com/Vang-z/RichELF2/pulls"
+    text: "论文",
+    icon: "book",
+    children: [
+      {
+        text: "论文列表",
+        prefix: "/papers/",
+        children: [
+          "2023-06/",
+          "2023-05/",
+        ]
+      },
+    ],
   },
   {
     text: "友情链接",

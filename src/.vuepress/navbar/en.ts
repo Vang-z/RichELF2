@@ -3,11 +3,11 @@ import {navbar} from "vuepress-theme-hope";
 export const enNavbar = navbar([
   "/en/",
   {
-    text: "Article",
-    icon: "book",
+    text: "Essay",
+    icon: "signature",
     children: [
       {
-        text: "List",
+        text: "Essay List",
         prefix: "/en/posts/",
         children: [
           "2023-09/",
@@ -16,9 +16,18 @@ export const enNavbar = navbar([
     ],
   },
   {
-    text: "Publish",
-    icon: "signature",
-    link: "https://github.com/Vang-z/RichELF2/pulls"
+    text: "Paper",
+    icon: "book",
+    children: [
+      {
+        text: "Paper List",
+        prefix: "/en/papers/",
+        children: [
+          "2023-06/",
+          "2023-05/",
+        ]
+      },
+    ],
   },
   {
     text: "Partner Links",

@@ -35,8 +35,12 @@ export default hopeTheme({
         "</div>",
       displayFooter: true,
       blog: {
-        avatar: "https://contrib.rocks/image?repo=Vang-z/RichELF2&columns=8&max=128",
-        description: "感谢所有参与社区建设的朋友🎉",
+        avatar: "",
+        description: `<p style="text-align: left; font-size: 1.4rem; hyphens: auto; margin: 0;"><strong>关于我</strong></p>
+<p style="text-align: left; text-indent: 2rem;">现阶段正在<a href="https://www.ouc.edu.cn/">中国海洋大学</a>攻读博士研究生学位, 研究领域为计算机视觉与海洋科学的交叉领域.</p>
+<p style="text-align: left; text-indent: 2rem;">2020年于<a href="https://www.cwnu.edu.cn/">西华师范大学</a>取得信息与计算科学理学学士学位, 
+2024年于<a href="https://www.gxmzu.edu.cn/">广西民族大学</a>取得计算机科学与技术工学硕士学位.</p>
+`
       },
       metaLocales: {
         editLink: "在 GitHub 上编辑此页",
@@ -48,7 +52,7 @@ export default hopeTheme({
       footer: "<div style='display: flex; justify-content: center; align-items: center; font-size: 12px'>" +
         "POWERED BY&nbsp;" +
         "<a href='https://theme-hope.vuejs.press/' target='_blank' style='display: flex; width: 18px; height: 18px;'>" +
-        "<img style='width: 100%; height: 100%; top: 1px;' src='https://theme-hope-assets.vuejs.press/logo.svg' alt=''>" +
+        "<img style='width: 100%; height: 100%; top: 1px;' src='/assets/images/theme-hope.svg' alt=''>" +
         "</a>" +
         "&nbsp;" +
         "<a href='https://vercel.com/' target='_blank' style='display: flex; width: 18px; height: 18px;'>" +
@@ -65,8 +69,11 @@ export default hopeTheme({
         "</div>",
       displayFooter: true,
       blog: {
-        avatar: "https://contrib.rocks/image?repo=Vang-z/RichELF2&columns=8&max=128",
-        description: "Thanks everyone who participated in building the community🎉",
+        avatar: "",
+        description: `<p style="text-align: left; font-size: 1.4rem; hyphens: auto; margin: 0;"><strong>About Me</strong></p>
+<p style="text-align: left; text-indent: 2em; hyphens: auto;">I am currently pursuing a PhD at <a href="https://www.ouc.edu.cn/">Ocean University of China</a>, specializing in the interdisciplinary field of computer vision and marine science.</p>
+<p style="text-align: left; text-indent: 2em; hyphens: auto;"">I obtained my Bachelor of Science in Information and Computing Science from <a href="https://www.cwnu.edu.cn/">China West Normal University</a> in 2020, and my Master of Engineering in Computer Science and Technology from <a href="https://www.gxmzu.edu.cn/">Guangxi Minzu University</a> in 2024.</p>
+`,
       },
       metaLocales: {
         editLink: "Edit this page on GitHub",

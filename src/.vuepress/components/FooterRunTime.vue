@@ -11,7 +11,7 @@ const FooterRunTime = () => {
   const text = `<br/><span>Running time: :day days :hour hours :minute minutes :second seconds</span>`;
   const pretext = footer.innerHTML.split('<br>')[0];
   Win.RunningTimeTimer = setInterval(() => {
-    const past = new Date("2023-09-13");
+    const past = new Date("2023-05-13");
     const now = new Date();
     let diffInSeconds = Math.abs((now.getTime() - past.getTime()) / 1000);
     const days = Math.floor(diffInSeconds / (60 * 60 * 24));
