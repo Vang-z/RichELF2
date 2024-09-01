@@ -14,3 +14,7 @@ $font-family-mono: '"JetBrainsMono", "Flexo", "sans-serif"';
 .wl-nick {
   color: var(--waline-theme-color);
 }
+
+.wl-card .wl-badge {
+  font-size: 0.5rem;
+}

@@ -158,7 +158,7 @@ onMounted(() => {
   }
 
   .author {
-    font-weight: 400;
+    font-weight: 600;
     margin-top: 1rem;
     float: right;
   }
