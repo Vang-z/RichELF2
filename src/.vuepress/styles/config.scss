@@ -1,3 +1,16 @@
 $font-family: '"JetBrainsMono", "Flexo", "sans-serif"';
 $font-family-heading: '"JetBrainsMono", "Flexo", "sans-serif"';
 $font-family-mono: '"JetBrainsMono", "Flexo", "sans-serif"';
+
+:root {
+  --waline-avatar-size: 0;
+  --waline-m-avatar-size: 0;
+}
+
+.wl-login-nick {
+  display: none;
+}
+
+.wl-nick {
+  color: var(--waline-theme-color);
+}
