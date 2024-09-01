@@ -80,7 +80,8 @@ onMounted(() => {
 
   axios({
     method: "get",
-    url: "https://api.injahow.cn/meting/?type=playlist&id=9025884639&server=tencent",
+    // url: "https://api.injahow.cn/meting/?type=playlist&id=3312380521&server=tencent",
+    url: "https://api.injahow.cn/meting/?type=song&id=001Yk41k0Bj20j&server=tencent",
     params: {},
   }).then((response) => {
     const data = response.data;
