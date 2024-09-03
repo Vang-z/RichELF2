@@ -11,6 +11,7 @@ export const zhNavbar = navbar([
         text: "文章列表",
         prefix: "/posts/",
         children: [
+          {text: "2024-09", icon: "book-bookmark", link: "2024-09/"},
           {text: "2023-09", icon: "book-bookmark", link: "2023-09/"},
         ]
       },

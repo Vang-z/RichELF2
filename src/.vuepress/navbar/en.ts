@@ -11,6 +11,7 @@ export const enNavbar = navbar([
         text: "Essay List",
         prefix: "/en/posts/",
         children: [
+          {text: "2024-09", icon: "book-bookmark", link: "2024-09/"},
           {text: "2023-09", icon: "book-bookmark", link: "2023-09/"},
         ]
       },

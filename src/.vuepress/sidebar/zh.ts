@@ -11,6 +11,15 @@ export const zhSidebar = sidebar({
       prefix: "/posts/",
       children: [
         {
+          text: "2024-09",
+          icon: "book-bookmark",
+          collapsible: true,
+          prefix: "2024-09/",
+          children: [
+            "26701f79-3a4d-43e6-930b-02bc77711421.md",
+          ]
+        },
+        {
           text: "2023-09",
           icon: "book-bookmark",
           collapsible: true,
