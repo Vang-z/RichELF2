@@ -64,7 +64,7 @@ const NewPlayer = () => {
     loop: "all",
     order: "random",
     preload: "auto",
-    volume: 1,
+    volume: 0.3,
     mutex: true,
     listFolded: false,
     listMaxHeight: "240px",
@@ -199,7 +199,7 @@ onMounted(() => {
   justify-content: center;
 
   svg {
-    fill: rgba(153, 153, 153, 1);
+    fill: var(--svg-color);
   }
 
   svg:hover {

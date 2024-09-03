@@ -1,5 +1,6 @@
 import {navbar} from "vuepress-theme-hope";
 
+
 export const enNavbar = navbar([
   "/en/",
   {
@@ -10,7 +11,7 @@ export const enNavbar = navbar([
         text: "Essay List",
         prefix: "/en/posts/",
         children: [
-          "2023-09/",
+          {text: "2023-09", icon: "book-bookmark", link: "2023-09/"},
         ]
       },
     ],
@@ -23,8 +24,8 @@ export const enNavbar = navbar([
         text: "Paper List",
         prefix: "/en/papers/",
         children: [
-          "2023-06/",
-          "2023-05/",
+          {text: "2023-06", icon: "book-bookmark", link: "2023-06/"},
+          {text: "2023-05", icon: "book-bookmark", link: "2023-05/"},
         ]
       },
     ],

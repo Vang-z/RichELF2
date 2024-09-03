@@ -140,3 +140,20 @@ html[data-theme=dark] .vp-blog-type-button .icon-wrapper.active {
   width: 90%;
   height: auto;
 }
+
+:root {
+  --waline-avatar-size: 0;
+  --waline-m-avatar-size: 0;
+}
+
+.wl-login-nick {
+  display: none;
+}
+
+.wl-nick {
+  color: var(--waline-theme-color) !important;
+}
+
+.wl-card .wl-badge {
+  font-size: 0.5rem;
+}

@@ -1,5 +1,7 @@
-import {defineClientConfig} from "@vuepress/client";
+import {defineClientConfig} from "vuepress/client";
 import {defineAsyncComponent} from "vue";
+import "vuepress-theme-hope/presets/shinning-feature-panel.scss";
+import "vuepress-theme-hope/presets/bounce-icon.scss";
 
 
 const FooterRunTime = defineAsyncComponent(() => import("./components/FooterRunTime.vue"));

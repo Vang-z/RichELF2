@@ -1,8 +1,8 @@
 import {defineUserConfig} from "vuepress";
-import {searchProPlugin} from "vuepress-plugin-search-pro";
-import {redirectPlugin} from "vuepress-plugin-redirect";
-// import {removeHtmlExtensionPlugin} from "vuepress-plugin-remove-html-extension"
-import theme from "./theme";
+import {docsearchPlugin} from "@vuepress/plugin-docsearch"
+import {seoPlugin} from "@vuepress/plugin-seo"
+import theme from "./theme.js";
+
 
 export default defineUserConfig({
   base: "/",
@@ -17,24 +17,19 @@ export default defineUserConfig({
   },
   theme,
   plugins: [
-    searchProPlugin({
-      indexContent: true,
-      hotKeys: [{key: "f", ctrl: true}],
-      customFields: [
-        {
-          getter: (page) => page.frontmatter.category as string,
-          formatter: "分类: $content",
-        },
-        {
-          getter: (page) => page.frontmatter.tag as string,
-          formatter: "标签: $content",
-        },
-      ],
+    docsearchPlugin({
+      indexName: "richelf",
+      appId: "D1I24X3QU5",
+      apiKey: "e07a6fba4e90a4ba67a5bd881b980f3d",
     }),
-    redirectPlugin({
-      config: {},
+    seoPlugin({
+      hostname: 'richelf.tech',
+      author: {
+        name: 'Vang-z',
+        url: 'richelf.tech',
+        email: 'vang-z@foxmail.com',
+      },
+      autoDescription: true,
     }),
-    // 目前会导致阅读量记录失效
-    // removeHtmlExtensionPlugin(),
-  ],
+  ]
 });

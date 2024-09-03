@@ -5,7 +5,7 @@ import {useRouter} from "vue-router";
 
 const InsertRepobeats = () => {
   let textElm;
-  const classElm = document.getElementsByClassName("vp-project-card project0");
+  const classElm = document.getElementsByClassName("vp-project-card");
   if (classElm.length > 0) {
     textElm = classElm[0];
     textElm.id = "repobeats";

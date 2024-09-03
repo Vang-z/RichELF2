@@ -1,5 +1,6 @@
 import {navbar} from "vuepress-theme-hope";
 
+
 export const zhNavbar = navbar([
   "/",
   {
@@ -10,7 +11,7 @@ export const zhNavbar = navbar([
         text: "文章列表",
         prefix: "/posts/",
         children: [
-          "2023-09/",
+          {text: "2023-09", icon: "book-bookmark", link: "2023-09/"},
         ]
       },
     ],
@@ -23,8 +24,8 @@ export const zhNavbar = navbar([
         text: "论文列表",
         prefix: "/papers/",
         children: [
-          "2023-06/",
-          "2023-05/",
+          {text: "2023-06", icon: "book-bookmark", link: "2023-06/"},
+          {text: "2023-05", icon: "book-bookmark", link: "2023-05/"},
         ]
       },
     ],
