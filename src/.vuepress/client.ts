@@ -1,7 +1,6 @@
 import {defineClientConfig} from "vuepress/client";
 import {defineAsyncComponent} from "vue";
 import {inject} from "@vercel/analytics";
-import {injectSpeedInsights} from '@vercel/speed-insights';
 import "vuepress-theme-hope/presets/shinning-feature-panel.scss";
 import "vuepress-theme-hope/presets/bounce-icon.scss";
 
@@ -14,7 +13,6 @@ const Repobeats = defineAsyncComponent(() => import("./components/Repobeats.vue"
 export default defineClientConfig({
   setup() {
     inject();
-    injectSpeedInsights();
     if (typeof document !== 'undefined') {
       document.oncontextmenu = function (_) {
         return false;
