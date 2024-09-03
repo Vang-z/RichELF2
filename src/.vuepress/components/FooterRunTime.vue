@@ -7,9 +7,12 @@ const FooterRunTime = () => {
   const Win: any = window;
   clearInterval(Win.RunningTimeTimer);
   const footer = document.querySelector(".vp-footer");
-  if (!footer) return;
+  const copyright = document.querySelector(".vp-copyright");
+  if (!footer || !copyright) return;
   const text = `<br/><span>Running time: :day days :hour hours :minute minutes :second seconds</span>`;
+  const copyright_text = `<br/><span id="busuanzi_container_site_pv">Page Views <span id="busuanzi_value_site_pv"></span></span>`;
   const pretext = footer.innerHTML.split('<br>')[0];
+  const copyright_pretext = copyright.innerHTML.split('<br>')[0];
   Win.RunningTimeTimer = setInterval(() => {
     const past = new Date("2023-05-13");
     const now = new Date();
@@ -27,6 +30,7 @@ const FooterRunTime = () => {
         .replace(":minute", minutes.toString())
         .replace(":second", seconds.toString());
     footer.innerHTML = `${pretext}${runtime}`;
+    copyright.innerHTML = `${copyright_pretext}${copyright_text}`;
   }, 1000);
 };
 

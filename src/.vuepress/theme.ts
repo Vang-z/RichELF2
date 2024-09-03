@@ -31,9 +31,7 @@ export default hopeTheme({
         "</div>",
       copyright: "<div style='display: flex; justify-content: center; align-items: center; font-size: 12px'>" +
         "COPYRIGHT <div style='position: relative; font-family: Flexo, serif; top: 1px'>&nbsp;©&nbsp;</div>" +
-        "2023 Vang-z. ALL RIGHTS RESERVED." +
-        "</div>" + "<script async src=\"//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js\"></script><br/>" +
-        "<span id=\"busuanzi_container_site_pv\">Page Views <span id=\"busuanzi_value_site_pv\"></span></span>",
+        "2023 Vang-z. ALL RIGHTS RESERVED.</div>",
       displayFooter: true,
       blog: {
         avatar: "",
@@ -71,9 +69,7 @@ export default hopeTheme({
         "</div>",
       copyright: "<div style='display: flex; justify-content: center; align-items: center; font-size: 12px'>" +
         "COPYRIGHT <div style='position: relative; font-family: Flexo, serif; top: 1px'>&nbsp;©&nbsp;</div>" +
-        "2023 Vang-z. ALL RIGHTS RESERVED." +
-        "</div>" + "<script async src=\"//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js\"></script><br/>" +
-        "<span id=\"busuanzi_container_site_pv\">Page Views <span id=\"busuanzi_value_site_pv\"></span></span>",
+        "2023 Vang-z. ALL RIGHTS RESERVED.</div>",
       displayFooter: true,
       blog: {
         avatar: "",
