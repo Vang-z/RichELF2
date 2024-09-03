@@ -22,7 +22,6 @@ const InsertText = (data, timeout) => {
     <span id="hitokoto_text"></span>
   <div class="right">』</div>
 </div>
-<div class="author" id="hitokoto_author"> ——「${data.from}」</div>
   `;
 
   const authorElm = document.getElementById('hitokoto_author');
@@ -171,8 +170,9 @@ onMounted(() => {
   max-width: 80vw;
   position: relative;
   display: inline-block;
-  font-size: 2.25rem;
+  font-size: 3rem;
   font-weight: normal;
+  font-family: "PR", serif;
 
   &::after {
     content: "|";

@@ -19,6 +19,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "PR";
+  src: url(https://cdn.jsdelivr.net/gh/oragekk/blog-assets/font/8d6a7466947745f9f211cd17e0ed5dc3.woff2) format("woff2"), url("/assets/fonts/PR.woff2") format("woff2"), url(https://cdn.jsdelivr.net/gh/oragekk/blog-assets/font/8d6a7466947745f9f211cd17e0ed5dc3.woff) format("woff"), url("/assets/fonts/PR.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
 table {
   border-collapse: separate;
 }

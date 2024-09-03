@@ -1,7 +1,8 @@
 import {defineUserConfig} from "vuepress";
-import {docsearchPlugin} from "@vuepress/plugin-docsearch"
-import {seoPlugin} from "@vuepress/plugin-seo"
+import {docsearchPlugin} from "@vuepress/plugin-docsearch";
+import {seoPlugin} from "@vuepress/plugin-seo";
 import theme from "./theme.js";
+import {viteBundler} from "@vuepress/bundler-vite";
 
 
 export default defineUserConfig({
@@ -31,5 +32,9 @@ export default defineUserConfig({
       },
       autoDescription: true,
     }),
-  ]
+  ],
+  bundler: viteBundler({
+    viteOptions: {},
+    vuePluginOptions: {},
+  }),
 });
