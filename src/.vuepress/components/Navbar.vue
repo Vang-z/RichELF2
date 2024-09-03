@@ -2,7 +2,6 @@
 import {ref, onMounted, nextTick} from "vue";
 import {useRouter} from "vue-router";
 import axios from "axios";
-import {SpeedInsights} from "@vercel/speed-insights/vue"
 import "aplayer/dist/APlayer.min.css";
 
 
@@ -120,7 +119,6 @@ onMounted(() => {
 </script>
 
 <template>
-  <SpeedInsights/>
   <ClientOnly>
     <div class="aplayer-wrapper">
       <div class="aplayer-main-wrapper" :class="{ hide: !showAPlayer }">

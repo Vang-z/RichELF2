@@ -22,10 +22,11 @@ const InsertText = (data, timeout) => {
     <span id="hitokoto_text"></span>
   <div class="right">』</div>
 </div>
-  `;
+<div class="author" id="hitokoto_author"></div>
+`;
 
-  const authorElm = document.getElementById('hitokoto_author');
-  const hitokotoElm = document.getElementById('hitokoto_text');
+  const authorElm = document.getElementById("hitokoto_author");
+  const hitokotoElm = document.getElementById("hitokoto_text");
   if (!hitokotoElm || !authorElm) return;
   authorElm.style.opacity = "0";
   const txt = data.hitokoto.split("");
@@ -34,12 +35,12 @@ const InsertText = (data, timeout) => {
   let pauseNum = 0;
   let pauseMax = 40;
   let line = false;
-  let insertTxt = '';
+  let insertTxt = "";
   Win.HeroHitokotoTimer = setInterval(() => {
     const el = txt[index];
 
-    if (insertTxt.length < 4) authorElm.style.opacity = '0';
-    else authorElm.style.opacity = '1';
+    if (insertTxt.length < 4) authorElm.style.opacity = "0";
+    else authorElm.style.opacity = "1";
 
     if (pauseNum != 0) {
       pauseNum--;
