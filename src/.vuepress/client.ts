@@ -2,7 +2,6 @@ import {defineClientConfig} from "vuepress/client";
 import {defineAsyncComponent, onMounted} from "vue";
 import {inject} from "@vercel/analytics";
 import {injectSpeedInsights} from "@vercel/speed-insights";
-import "vuepress-theme-hope/presets/shinning-feature-panel.scss";
 import "vuepress-theme-hope/presets/bounce-icon.scss";
 
 
