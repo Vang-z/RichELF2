@@ -1,6 +1,6 @@
 ---
 title: 友情链接
-icon: mars-double
+icon: venus-mars
 index: false
 article: false
 pageInfo: [ ]

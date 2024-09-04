@@ -1,6 +1,6 @@
 ---
 title: Friendships
-icon: mars-double
+icon: venus-mars
 index: false
 article: false
 pageInfo: [ ]

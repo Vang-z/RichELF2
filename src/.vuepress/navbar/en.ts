@@ -15,34 +15,7 @@ export const enNavbar = navbar([
   },
   {
     text: "Friendships",
-    icon: "mars-double",
-    children: [
-      {
-        text: "Big Shots",
-        children: [
-          {
-            text: "zxysilent",
-            link: "https://blog.zxysilent.com"
-          },
-          {
-            text: "mahomaster",
-            link: "http://www.mahomaster.com/"
-          },
-        ]
-      },
-      {
-        text: "Other Big Shots",
-        children: [
-          {
-            text: "TNT Lib",
-            link: "http://38.6.177.226:3310/"
-          },
-          {
-            text: "gisyang",
-            link: "http://gisyang.xyz/"
-          },
-        ]
-      },
-    ],
+    icon: "venus-mars",
+    link: "/en/friendships/",
   },
 ]);

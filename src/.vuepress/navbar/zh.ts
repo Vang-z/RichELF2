@@ -15,7 +15,7 @@ export const zhNavbar = navbar([
   },
   {
     text: "友情链接",
-    icon: "mars-double",
+    icon: "venus-mars",
     link: "/friendships/",
   },
 ]);
