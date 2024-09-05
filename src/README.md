@@ -5,7 +5,8 @@ icon: home
 title: 主页
 heroImage: /logo.svg
 heroText: 给机器以生命，给岁月以文明。
-heroFullScreen: true
+bgImage: /assets/images/background.png
+heroFullScreen: false
 projects:
   - name: ""
     desc: ""
