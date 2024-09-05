@@ -175,3 +175,11 @@ html[data-theme=dark] .vp-blog-type-button .icon-wrapper.active {
 .theme-hope-content {
   font-size: 0.9rem;
 }
+
+.left-img {
+  img {
+    width: 280px;
+    float: left;
+    margin-right: 12px;
+  }
+}
