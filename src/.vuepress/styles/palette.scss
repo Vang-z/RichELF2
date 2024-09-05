@@ -1,6 +1,7 @@
 $theme-color: #f26d6d;
 
-$svg-color: (
-  light: #666666,
-  dark: #999999,
-);
+$svg-color: (light: #666666, dark: #999999);
+
+$donate-color: (light: rgba(204, 217, 220, 0.1), dark: rgba(204, 217, 220, 0.1));
+
+$donate-hover-color: (light: rgba(204, 217, 220, 0.3), dark: rgba(204, 217, 220, 0.3));

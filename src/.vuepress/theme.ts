@@ -91,6 +91,7 @@ export default hopeTheme({
   themeColor: true,
   print: true,
   hotReload: true,
+  breadcrumb: false,
   plugins: {
     blog: {
       excerptLength: 0,
@@ -125,11 +126,12 @@ export default hopeTheme({
       sub: true,
       sup: true,
       tabs: true,
+      component: true,
     },
     docsearch: {
       indexName: "richelf",
-      appId: "D1I24X3QU5",
-      apiKey: "e07a6fba4e90a4ba67a5bd881b980f3d",
+      appId: "A8B8L156RC",
+      apiKey: "6ca6a4e3763d4a19343e2b6494fcb613",
       locales: {
         "/": {
           placeholder: "搜索内容",

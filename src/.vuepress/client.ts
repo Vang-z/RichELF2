@@ -3,6 +3,7 @@ import {defineAsyncComponent, onMounted} from "vue";
 import {inject} from "@vercel/analytics";
 import {injectSpeedInsights} from "@vercel/speed-insights";
 import "vuepress-theme-hope/presets/bounce-icon.scss";
+import Sponsor from "./components/Sponsor.vue";
 
 
 const FooterRunTime = defineAsyncComponent(() => import("./components/FooterRunTime.vue"));
@@ -39,4 +40,7 @@ export default defineClientConfig({
     Navbar,
     Repobeats,
   ],
+  enhance: ({ app, router, siteData }) => {
+    app.component("Sponsor", Sponsor);
+  },
 });
