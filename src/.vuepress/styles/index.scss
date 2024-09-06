@@ -152,6 +152,8 @@ html[data-theme=dark] .vp-blog-type-button .icon-wrapper.active {
 :root {
   --waline-avatar-size: 0;
   --waline-m-avatar-size: 0;
+  scrollbar-width: inherit;
+  overflow-y: scroll;
 }
 
 .wl-login-nick {
