@@ -1,6 +1,4 @@
 import {defineUserConfig} from "vuepress";
-import {docsearchPlugin} from "@vuepress/plugin-docsearch";
-import {seoPlugin} from "@vuepress/plugin-seo";
 import theme from "./theme.js";
 import {viteBundler} from "@vuepress/bundler-vite";
 import {baiduSeoPlugin} from "vuepress-plugin-baidu-seo-next";

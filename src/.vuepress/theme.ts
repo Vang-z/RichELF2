@@ -177,5 +177,11 @@ export default hopeTheme({
       },
     },
     seo: true,
+    components: {
+      components: [
+        "BiliBili",
+        "VidStack",
+      ],
+    },
   },
 });
