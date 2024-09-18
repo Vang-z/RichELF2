@@ -12,6 +12,7 @@ comment: false
 
 
 ### 2024-09
+- [2024-09-18 为WLS2下的Ubuntu配置系统代理](2024-09/196cb8ed-a682-4ec3-8b71-ea14db2aaa2d.md)
 - [2024-09-06 使用YOLOv8在Label Studio的自定义数据集上进行训练/推理](2024-09/2a7262df-2893-42af-8e66-0fb59d807aef.md)
 - [2024-09-05 Algolia开箱即用的网站搜索组件](2024-09/e0b7d67a-ee94-4948-983e-cabde23de0fc.md)
 - [2024-09-04 使用TypeScript将字符串hash值转化为对应rgb颜色](2024-09/18483f51-2ff7-49af-bfe9-fc46f2b99bee.md)
