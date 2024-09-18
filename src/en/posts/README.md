@@ -12,6 +12,7 @@ comment: false
 
 
 ### 2024-09
+- [2024-09-18 Configure the system proxy for Ubuntu under WSL2](2024-09/196cb8ed-a682-4ec3-8b71-ea14db2aaa2d.md)
 - [2024-09-06 Training/inference on a custom dataset in Label Studio using YOLOv8](2024-09/2a7262df-2893-42af-8e66-0fb59d807aef.md)
 - [2024-09-05 Algolia presents a plug-and-play website search component](2024-09/e0b7d67a-ee94-4948-983e-cabde23de0fc.md)
 - [2024-09-04 Convert a string's hash value into a corresponding RGB color using TypeScript](2024-09/18483f51-2ff7-49af-bfe9-fc46f2b99bee.md)
