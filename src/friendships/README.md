@@ -4,6 +4,10 @@ icon: venus-mars
 index: false
 article: false
 pageInfo: [ ]
+head:
+  - - meta
+    - name: baidu-site-verification
+      content: codeva-GI4NygjhIs
 ---
 
 https://tool.chinaz.com/tools/imgtobase {style="display: none;"}
