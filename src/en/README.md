@@ -5,7 +5,7 @@ icon: home
 title: Home
 heroImage: /logo.svg
 heroText: Endow Machines with Life, Imbue Time with Civilization.
-bgImage: /assets/images/background.png
+bgImage: /assets/images/background.avif
 heroFullScreen: false
 projects:
   - name: ""
