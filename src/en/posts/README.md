@@ -15,6 +15,10 @@ head:
 ---
 
 
+### 2024-10
+- [2024-10-14 Modify and merge 3D point clouds using CloudCompare](2024-10/4d01de85-8307-47c6-bfc3-beb1ae087ae0.md)
+
+
 ### 2024-09
 - [2024-09-18 Configure the system proxy for Ubuntu under WSL2](2024-09/196cb8ed-a682-4ec3-8b71-ea14db2aaa2d.md)
 - [2024-09-06 Training/inference on a custom dataset in Label Studio using YOLOv8](2024-09/2a7262df-2893-42af-8e66-0fb59d807aef.md)
