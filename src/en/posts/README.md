@@ -15,6 +15,10 @@ head:
 ---
 
 
+### 2024-11
+- [2024-11-01 Addressing errors when using Endless on Windows](2024-11/0a3eab30-a9c2-4e94-aa2e-b5506dddfae0.md)
+
+
 ### 2024-10
 - [2024-10-14 Modify and merge 3D point clouds using CloudCompare](2024-10/4d01de85-8307-47c6-bfc3-beb1ae087ae0.md)
 
