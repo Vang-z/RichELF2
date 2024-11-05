@@ -37,8 +37,8 @@ export default hopeTheme({
         avatar: "",
         description: `<p style="text-align: left; font-size: 1.4rem; hyphens: auto; margin: 0;"><strong>关于我</strong></p>
 <p style="text-align: left;">基本信息: </p>
-<p style="text-align: left; text-indent: 2rem;">我是Vang-z👋, 一位科研学者, 现阶段正在<a href="https://www.ouc.edu.cn/">中国海洋大学</a>攻读博士研究生学位🎓, 研究领域为计算机视觉与海洋科学的交叉领域🌈</p>
-<p style="text-align: left; text-indent: 2rem;">2020年于<a href="https://www.cwnu.edu.cn/">西华师范大学</a>取得信息与计算科学理学学士学位, 
+<p style="text-align: left; text-indent: 2rem;">我是Vang-z👋, 一位科研学者, 现阶段正在<a href="https://www.ouc.edu.cn/" target="_blank">中国海洋大学</a>攻读博士研究生学位🎓, 研究领域为计算机视觉与海洋科学的交叉领域🌈</p>
+<p style="text-align: left; text-indent: 2rem;">2020年于<a href="https://www.cwnu.edu.cn/" target="_blank">西华师范大学</a>取得信息与计算科学理学学士学位, 
 2024年于<a href="https://www.gxmzu.edu.cn/">广西民族大学</a>取得计算机科学与技术工学硕士学位.</p>
 <p style="text-align: left;">联系方式: </p>
 <p style="text-align: left;"><span style="text-indent: 2rem;">微信: vang-z</span><br />
@@ -75,8 +75,8 @@ export default hopeTheme({
         avatar: "",
         description: `<p style="text-align: left; font-size: 1.4rem; hyphens: auto; margin: 0;"><strong>About Me</strong></p>
 <p style="text-align: left;">Basic Information:</p>
-<p style="text-align: left; text-indent: 2em; hyphens: auto;">I am Vang-z👋, a scientific researcher, I am currently pursuing a PhD at <a href="https://www.ouc.edu.cn/">Ocean University of China</a>🎓, specializing in the interdisciplinary field of computer vision and marine science🌈</p>
-<p style="text-align: left; text-indent: 2em; hyphens: auto;"">I obtained my Bachelor of Science in Information and Computing Science from <a href="https://www.cwnu.edu.cn/">China West Normal University</a> in 2020, and my Master of Engineering in Computer Science and Technology from <a href="https://www.gxmzu.edu.cn/">Guangxi Minzu University</a> in 2024.</p>
+<p style="text-align: left; text-indent: 2em; hyphens: auto;">I am Vang-z👋, a scientific researcher, I am currently pursuing a PhD at <a href="https://www.ouc.edu.cn/" target="_blank">Ocean University of China</a>🎓, specializing in the interdisciplinary field of computer vision and marine science🌈</p>
+<p style="text-align: left; text-indent: 2em; hyphens: auto;"">I obtained my Bachelor of Science in Information and Computing Science from <a href="https://www.cwnu.edu.cn/" target="_blank">China West Normal University</a> in 2020, and my Master of Engineering in Computer Science and Technology from <a href="https://www.gxmzu.edu.cn/">Guangxi Minzu University</a> in 2024.</p>
 <p style="text-align: left;">Contact:</p>
 <p style="text-align: left;"><span style="text-indent: 2rem;">Wechat: vang-z</span><br />
 <span style="text-indent: 2rem;">Email: vang-z@foxmail.com</span>
