@@ -15,7 +15,7 @@ head:
 
 <table style="position: relative; height: 100%; width: 100%; text-align: center;">
   <tr>
-    <td colspan="3" style="position: relative; font-weight: 600;"><a href="https://doi.org/10.1007/s42235-023-00391-5">An Efficient Multilevel Threshold Image Segmentation Method for COVID-19 Imaging Using Q-Learning Based Golden Jackal Optimization</a></td>
+    <td colspan="3" style="position: relative; font-weight: 600;"><a href="https://doi.org/10.1007/s42235-023-00391-5" target="_blank">An Efficient Multilevel Threshold Image Segmentation Method for COVID-19 Imaging Using Q-Learning Based Golden Jackal Optimization</a></td>
   </tr>
   <tr>
     <td colspan="3" style="position: relative; font-weight: 600;"><a><strong>Zihao Wang</strong></a>, Yuanbin Mo, Mingyue Cui</td>
@@ -26,7 +26,7 @@ head:
       <img style="position: relative; width: 100%;" src="./assets/images/Journal_of_Bionic_Engineering.jpg" />
     </span>
     </td>
-    <td colspan="2"><a href="https://link.springer.com/journal/42235">Journal of Bionic Engineering [2023-06-14]</a></td>
+    <td colspan="2"><a href="https://link.springer.com/journal/42235" target="_blank">Journal of Bionic Engineering [2023-06-14]</a></td>
   </tr>
   <tr>
     <td>Impact Factor</td>
@@ -48,7 +48,7 @@ head:
 
 <table style="position: relative; height: 100%; width: 100%; text-align: center;">
   <tr>
-    <td colspan="3" style="position: relative; font-weight: 600;"><a href="https://doi.org/10.1371/journal.pone.0285211">An improved golden jackal optimization for multilevel thresholding image segmentation</a></td>
+    <td colspan="3" style="position: relative; font-weight: 600;"><a href="https://doi.org/10.1371/journal.pone.0285211" target="_blank">An improved golden jackal optimization for multilevel thresholding image segmentation</a></td>
   </tr>
   <tr>
     <td colspan="3" style="position: relative; font-weight: 600;"><a><strong>Zihao Wang</strong></a>, Yuanbin Mo, Mingyue Cui, Jufeng Hu, Yucheng Lyu</td>
@@ -59,7 +59,7 @@ head:
       <img style="position: relative; width: 100%;" src="./assets/images/PLoS_One.jpg" />
     </span>
     </td>
-    <td colspan="2"><a href="https://journals.plos.org/plosone/">PLoS One [2023-05-05]</a></td>
+    <td colspan="2"><a href="https://journals.plos.org/plosone/" target="_blank">PLoS One [2023-05-05]</a></td>
   </tr>
   <tr>
     <td>Impact Factor</td>

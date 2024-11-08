@@ -64,7 +64,7 @@ export default hopeTheme({
         "</a>" +
         "&nbsp;&&nbsp;" +
         "<a href='https://waline.js.org/' target='_blank' style='display: flex; width: 18px; height: 18px;'>" +
-        "<img style='width: 100%; height: 100%' src='https://waline.js.org/logo.avif' alt=''>" +
+        "<img style='width: 100%; height: 100%' src='/assets/images/waline.avif' alt=''>" +
         "</a>" +
         "</div>",
       copyright: "<div style='display: flex; justify-content: center; align-items: center; font-size: 12px'>" +
