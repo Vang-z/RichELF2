@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@vuepress/plugin-umami-analytics':
+        specifier: 2.0.0-rc.27
+        version: 2.0.0-rc.27(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@22.5.2)(sass@1.77.8))(vue@3.4.38))
       richelf2:
         specifier: 'link:'
         version: 'link:'
@@ -1000,6 +1003,11 @@ packages:
     resolution: {integrity: sha512-fNwaPpqM46gI23n5d4UrwC8Y+JRDi7mKs1sjawqKU9PdJpUQKd/2lOSOSx/farLqxiswHTQdZtLCxWjvWlcZRw==}
     peerDependencies:
       vuepress: 2.0.0-rc.14
+
+  '@vuepress/plugin-umami-analytics@2.0.0-rc.27':
+    resolution: {integrity: sha512-pHag+h9mg3h49XlZ2H6Hj81y8j3VmFvSI/6iGnad0skerBvuVhmfsXELa9a4hzEE9M8bBuVKGBAGMv9nmQmeqQ==}
+    peerDependencies:
+      vuepress: 2.0.0-rc.9
 
   '@vuepress/plugin-watermark@2.0.0-rc.39':
     resolution: {integrity: sha512-16BZnwIZa+AEBcnXI59udHX04/VLiCwrdy8wsdBf3vy5co8/PPyG3iDC1Tlwbkotsuz/+J23KG7MjN4Fr9dFEQ==}
@@ -3185,6 +3193,14 @@ snapshots:
   '@vuepress/plugin-theme-data@2.0.0-rc.39(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@22.5.2)(sass@1.77.8))(vue@3.4.38))':
     dependencies:
       '@vue/devtools-api': 6.6.3
+      vue: 3.4.38
+      vuepress: 2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@22.5.2)(sass@1.77.8))(vue@3.4.38)
+    transitivePeerDependencies:
+      - typescript
+
+  '@vuepress/plugin-umami-analytics@2.0.0-rc.27(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@22.5.2)(sass@1.77.8))(vue@3.4.38))':
+    dependencies:
+      '@vuepress/helper': 2.0.0-rc.42(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@22.5.2)(sass@1.77.8))(vue@3.4.38))
       vue: 3.4.38
       vuepress: 2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@22.5.2)(sass@1.77.8))(vue@3.4.38)
     transitivePeerDependencies:

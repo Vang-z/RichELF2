@@ -18,4 +18,9 @@ export const zhNavbar = navbar([
     icon: "venus-mars",
     link: "/friendships/",
   },
+  {
+    text: "访客",
+    icon: "globe",
+    link: "https://cloud.umami.is/share/Zy7rWlWnoVVRIa60/richelf.tech",
+  },
 ]);

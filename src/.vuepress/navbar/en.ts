@@ -18,4 +18,9 @@ export const enNavbar = navbar([
     icon: "venus-mars",
     link: "/en/friendships/",
   },
+  {
+    text: "Visitor",
+    icon: "globe",
+    link: "https://cloud.umami.is/share/Zy7rWlWnoVVRIa60/richelf.tech",
+  },
 ]);

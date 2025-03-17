@@ -30,6 +30,7 @@
     "vuepress-theme-hope": "2.0.0-rc.52"
   },
   "dependencies": {
+    "@vuepress/plugin-umami-analytics": "2.0.0-rc.27",
     "richelf2": "link:"
   }
 }
