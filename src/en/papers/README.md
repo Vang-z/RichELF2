@@ -21,9 +21,9 @@ head:
     <td colspan="3" style="position: relative; font-weight: 600;"><a><strong>Zihao Wang</strong></a>, Yuanbin Mo, Mingyue Cui</td>
   </tr>
   <tr style="position: relative;">
-    <td rowspan="4" style="position: relative; width: 20%; padding: 12px;">
-    <span style="display: flex; align-items: center;">
-      <img style="position: relative; width: 100%;" src="../../papers/assets/images/Journal_of_Bionic_Engineering.jpg" />
+    <td rowspan="4" style="position: relative; width: 20%; padding: 2px 12px 12px 2px;">
+    <span class="paper-stack">
+      <img style="position: relative; width: 100%;" src="../../papers/assets/images/s42235-023-00391-5.jpg" />
     </span>
     </td>
     <td colspan="2"><a href="https://link.springer.com/journal/42235" target="_blank">Journal of Bionic Engineering [2023-06-14]</a></td>
@@ -54,9 +54,9 @@ head:
     <td colspan="3" style="position: relative; font-weight: 600;"><a><strong>Zihao Wang</strong></a>, Yuanbin Mo, Mingyue Cui, Jufeng Hu, Yucheng Lyu</td>
   </tr>
   <tr style="position: relative;">
-    <td rowspan="4" style="position: relative; width: 20%; padding: 12px;">
-    <span style="display: flex; align-items: center;">
-      <img style="position: relative; width: 100%;" src="../../papers/assets/images/PLoS_One.jpg" />
+    <td rowspan="4" style="position: relative; width: 20%; padding: 2px 12px 12px 2px;">
+    <span class="paper-stack">
+      <img style="position: relative; width: 100%;" src="../../papers/assets/images/journal.pone.0285211.jpg" />
     </span>
     </td>
     <td colspan="2"><a href="https://journals.plos.org/plosone/" target="_blank">PLoS One [2023-05-05]</a></td>
