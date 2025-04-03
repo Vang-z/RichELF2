@@ -16,6 +16,7 @@
     "@vuepress/bundler-vite": "2.0.0-rc.14",
     "@vuepress/plugin-docsearch": "2.0.0-rc.42",
     "@vuepress/plugin-seo": "2.0.0-rc.3",
+    "@vuepress/plugin-umami-analytics": "2.0.0-rc.27",
     "@waline/client": "^3.3.0",
     "aplayer": "^1.10.1",
     "axios": "^1.7.7",
@@ -30,7 +31,6 @@
     "vuepress-theme-hope": "2.0.0-rc.52"
   },
   "dependencies": {
-    "@vuepress/plugin-umami-analytics": "2.0.0-rc.27",
     "richelf2": "link:"
   }
 }

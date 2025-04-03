@@ -18,7 +18,7 @@ head:
     <td colspan="3" style="position: relative; font-weight: 600;"><a href="https://doi.org/10.1007/s42235-023-00391-5" target="_blank">An Efficient Multilevel Threshold Image Segmentation Method for COVID-19 Imaging Using Q-Learning Based Golden Jackal Optimization</a></td>
   </tr>
   <tr>
-    <td colspan="3" style="position: relative; font-weight: 600;"><a><strong>Zihao Wang</strong></a>, Yuanbin Mo, Mingyue Cui</td>
+    <td colspan="3" style="position: relative; font-weight: 600;"><a><strong>Zihao Wang<sup>1</sup></strong></a>, Yuanbin Mo<sup>2,*</sup>, Mingyue Cui<sup>3</sup></td>
   </tr>
   <tr style="position: relative;">
     <td rowspan="4" style="position: relative; width: 20%; padding: 2px 12px 12px 2px;">
@@ -51,7 +51,7 @@ head:
     <td colspan="3" style="position: relative; font-weight: 600;"><a href="https://doi.org/10.1371/journal.pone.0285211" target="_blank">An improved golden jackal optimization for multilevel thresholding image segmentation</a></td>
   </tr>
   <tr>
-    <td colspan="3" style="position: relative; font-weight: 600;"><a><strong>Zihao Wang</strong></a>, Yuanbin Mo, Mingyue Cui, Jufeng Hu, Yucheng Lyu</td>
+    <td colspan="3" style="position: relative; font-weight: 600;"><a><strong>Zihao Wang<sup>1</sup></strong></a>, Yuanbin Mo<sup>2,*</sup>, Mingyue Cui<sup>3</sup>, Jufeng Hu<sup>4</sup>, Yucheng Lyu<sup>5</sup></td>
   </tr>
   <tr style="position: relative;">
     <td rowspan="4" style="position: relative; width: 20%; padding: 2px 12px 12px 2px;">
