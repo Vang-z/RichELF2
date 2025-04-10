@@ -226,3 +226,20 @@ html[data-theme=dark] .vp-blog-type-button .icon-wrapper.active {
 .vp-code {
   text-size-adjust: none;
 }
+
+@media (max-width: 419px) {
+  .vp-code-tabs-nav {
+    margin-inline: 0;
+    border-radius: 0;
+  }
+
+  .vp-code-tab div[class*=language-] pre {
+    margin: 0.875rem 0;
+    border-radius: 0 !important;
+  }
+
+  .theme-hope-content > div[class*=language-] {
+    --code-border-radius: 0;
+    margin: 0.75rem 0;
+  }
+}
