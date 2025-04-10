@@ -230,7 +230,7 @@ html[data-theme=dark] .vp-blog-type-button .icon-wrapper.active {
 @media (max-width: 419px) {
   .vp-code-tabs-nav {
     margin-inline: 0;
-    border-radius: 0;
+    border-radius: 6px 6px 0 0;
   }
 
   .vp-code-tab div[class*=language-] pre {
@@ -239,7 +239,7 @@ html[data-theme=dark] .vp-blog-type-button .icon-wrapper.active {
   }
 
   .theme-hope-content > div[class*=language-] {
-    --code-border-radius: 0;
+    --code-border-radius: 6px;
     margin: 0.75rem 0;
   }
 }
