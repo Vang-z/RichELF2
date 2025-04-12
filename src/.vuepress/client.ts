@@ -8,7 +8,7 @@ import Sponsor from "./components/Sponsor.vue";
 
 const FooterRunTime = defineAsyncComponent(() => import("./components/FooterRunTime.vue"));
 const HeroHitokoto = defineAsyncComponent(() => import("./components/HeroHitokoto.vue"));
-const Navbar = defineAsyncComponent(() => import("./components/Navbar.vue"));
+// const Navbar = defineAsyncComponent(() => import("./components/Navbar.vue"));
 const Repobeats = defineAsyncComponent(() => import("./components/Repobeats.vue"));
 
 export default defineClientConfig({
@@ -37,7 +37,7 @@ export default defineClientConfig({
   rootComponents: [
     FooterRunTime,
     HeroHitokoto,
-    Navbar,
+    // Navbar,
     Repobeats,
   ],
   enhance: ({ app, router, siteData }) => {
