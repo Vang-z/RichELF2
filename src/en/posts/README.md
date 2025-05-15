@@ -15,6 +15,9 @@ head:
 ---
 
 
+### 2025-05
+- [2025-05-15 Resolving compilation errors for COLMAP in Ubuntu under WSL2](2025-05/67028f84-8129-4349-beae-7efbfab3b1b3.md)
+
 ### 2025-04
 - [2025-04-16 Python implementation of Feature Similarity Index (FSIM)](2025-04/d37e7ccd-13e9-4555-b611-4c8a8674c1f0.md)
 - [2025-04-12 Play Bilibili Videos at N Times Speed on PC](2025-04/b541b295-ae91-4250-908a-189d744f51d7.md)
